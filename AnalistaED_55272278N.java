@@ -20,6 +20,13 @@ public class AnalistaED_55272278N {
 		this.dni = dni;
 	}
 	
+	/**
+	 * Calcula el salario bruto mensual en función del salario base por hora y las horas extras El precio por hora
+	 * de la hora extra se determina con la constante FACTOR_HORA_EXTRA
+	 * 
+	 * @param horasExtra número de horas extra dedicadas redondeando a la baja (entero)
+	 * @return devuelve el salario bruto menusal en euros con dos decimales
+	 */
 	public double getSalarioEsteMes(int horasExtra) {
 		double cantidadExtra, salarioFinal;
 		cantidadExtra = horasExtra * this.salarioBasePorHora * FACTOR_HORA_EXTRA;
