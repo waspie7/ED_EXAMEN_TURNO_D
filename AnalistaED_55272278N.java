@@ -9,6 +9,12 @@ public class AnalistaED_55272278N {
 	private String nombreCompleto, dni;
 	private double salarioBasePorHora = 10.56;
 	
+	/**
+	 * Constructor con tres parámetros
+	 * 
+	 * @param nombre nombre completo en mayúsculas
+	 * @param dni documento nacional de identidad con letra sin espacios
+	 */
 	public AnalistaED_55272278N(String nombre, String dni) {
 		this.nombreCompleto = nombre;
 		this.dni = dni;
