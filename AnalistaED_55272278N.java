@@ -1,4 +1,9 @@
-
+/**
+ * Ejercicio práctico examen Eval 1 ED
+ * 
+ * @author STEPHANIE BADAL DNI 55272278N
+ * @version 1.0
+ */
 public class AnalistaED_55272278N {
 	static final double FACTOR_HORA_EXTRA = 1.2;
 	private String nombreCompleto, dni;
